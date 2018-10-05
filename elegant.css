@@ -8941,6 +8941,16 @@ body {
     src: url(font/minamoji.ttf);
 }
 
-h1 {
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+a {
     font-family: minamoji;
 }
+
+body {
+    zoom: 1.2;
+    -moz-transform: scale(1.2);}
