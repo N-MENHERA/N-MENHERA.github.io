@@ -8934,3 +8934,13 @@ body {
         opacity: 1;
     }
 }
+
+
+@font-face {
+    font-family: 'minamoji';
+    src: url(font/minamoji.ttf);
+}
+
+h1 {
+    font-family: minamoji;
+}
